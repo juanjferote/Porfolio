@@ -26,7 +26,6 @@ h2 {
     margin-bottom: 15px;
 }
 
-/* Estilo del header */
 header {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -47,17 +46,12 @@ header p {
     font-size: 1.2rem;
 }
 
-/* Estilos de las secciones */
 section {
     margin: 20px;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-article {
-    margin-bottom: 15px;
 }
 
 ul {
@@ -94,12 +88,15 @@ ul li {
 article {
     flex: 1; 
     padding: 10px;
-    background-color: #f0f0f0; /* Fondo para los artículos */
-    border-radius: 8px; /* Bordes redondeados */
+    background-color: #f0f0f0; 
+    border-radius: 8px; 
+    margin-bottom: 15px;
 }
 
+#datos, #datos article {
+    background-color: white
+}
 
-/* Footer */
 footer {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
