@@ -47,16 +47,6 @@ header p {
     font-size: 1.2rem;
 }
 
-/* Estilo para la sección de detalles personales */
-address {
-    font-style: normal;
-    margin-top: 10px;
-}
-
-address p {
-    margin: 5px 0;
-}
-
 /* Estilos de las secciones */
 section {
     margin: 20px;
@@ -80,7 +70,15 @@ ul li {
     font-size: 1rem;
 }
 
-/* Estilos de la lista de habilidades */
+#skills, #datos {
+    display: flex;
+    gap: 20px;
+}
+
+#datos article {
+    text-align: center;
+}
+
 #skills ul li {
     padding-left: 20px;
     position: relative;
@@ -92,6 +90,14 @@ ul li {
     left: 0;
     color: #4CAF50;
 }
+
+article {
+    flex: 1; 
+    padding: 10px;
+    background-color: #f0f0f0; /* Fondo para los artículos */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
 
 /* Footer */
 footer {
