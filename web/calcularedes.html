@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcularedes</title>
+    <title>CalculaRedes</title>
     <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../images/icono.png" type="i"/>
 </head>
+
 <body>
     <header>
         <h1>Juanjo Fernández</h1>
         <p>¡Bienvenid@ a mi portfolio! Aquí iré publicando mis proyectos. Espero que te guste 😊</p>
         <nav>
             <ul class="menu">
-                <li class="a"> <a href="index.html">Quién soy</a></li> 
-                <li class="a"> <a href="memorion.html">Memorión</a></li> 
+                <li class="a"> <a href="index.html">Quién soy</a></li>
+                <li class="a"> <a href="memorion.html">Memorión</a></li>
                 <li class="a"> <a href="calcularedes.html">CalculaRedes</a></li>
                 <li class="a"> <a href="buscamapas.html">BuscaMapas</a></li>
                 <li class="a"> <a href="velneo.html">Velneo</a></li>
@@ -23,10 +26,24 @@
 
     <section>
         <h2>Descripción del proyecto</h2>
+        <p>Este proyecto es una herramienta interactiva diseñada para facilitar el aprendizaje y análisis de direcciones
+            IP y máscaras de subred. A través de una interfaz amigable, el usuario puede ingresar una IP y una máscara,
+            y obtener información detallada sobre su clasificación, rango, subredes y formatos. Es ideal para
+            estudiantes y profesionales de redes que necesitan una forma rápida y visual de entender y calcular
+            configuraciones de red, con validaciones automáticas y resultados claros que simplifican conceptos
+            complejos.</p>
     </section>
 
     <section>
         <h2>Especificaciones técnicas</h2>
+        <p>Esta aplicación recibe una IP y una máscara ingresadas por el usuario y valida que ambos tengan el formato
+            correcto: la IP debe tener cuatro octetos entre 0 y 255, y la máscara debe ser válida en formato decimal o
+            CIDR. Luego, detecta la clase de la IP (A, B, C, D o E) y si es pública o privada. Calcula la máscara en
+            bits y decimal, el wildcard, dirección de red, broadcast y rango de hosts, así como el número máximo de
+            subredes y muestra hasta 8 subredes con sus detalles. Permite cambiar entre formatos decimal, binario y
+            hexadecimal para IP y máscara. También usa la IP pública real del usuario como ejemplo, maneja errores en la
+            entrada, y actualiza la página dinámicamente con botones y formularios para facilitar la interacción y
+            comprensión de los resultados.</p>
     </section>
 
     <section>
@@ -42,4 +59,5 @@
         <p>Última actualización: Junio 2025</p>
     </footer>
 </body>
+
 </html>
