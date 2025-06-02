@@ -93,7 +93,7 @@ article {
     margin-bottom: 15px;
 }
 
-#datos, #datos article {
+#datos, #datos article, #skills, #skills article {
     background-color: white
 }
 
@@ -123,8 +123,6 @@ nav {
     margin: 0;
     display: flex;          /* Los elementos en fila */
     justify-content: center; /* Centra los elementos del menú */
-    
-    
 }
 
 .menu li {
