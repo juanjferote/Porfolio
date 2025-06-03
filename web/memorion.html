@@ -1,37 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memorion</title>
     <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../images/icono.png" type="i"/>
 </head>
+
 <body>
     <header>
         <h1>Juanjo Fernández</h1>
         <p>¡Bienvenid@ a mi portfolio! Aquí iré publicando mis proyectos. Espero que te guste 😊</p>
         <nav>
             <ul class="menu">
-                <li class="a"> <a href="index.html">Quién soy</a></li> 
-                <li class="a"> <a href="memorion.html">Memorión</a></li> 
+                <li class="a"> <a href="index.html">Quién soy</a></li>
+                <li class="a"> <a href="memorion.html">Memorión</a></li>
                 <li class="a"> <a href="calcularedes.html">CalculaRedes</a></li>
                 <li class="a"> <a href="buscamapas.html">BuscaMapas</a></li>
+                <li class="a"> <a href="velneo.html">Velneo</a></li>
             </ul>
         </nav>
     </header>
-        
+
     <section>
         <h2>Descripción del proyecto</h2>
-        <p>Versión del popular juego de las tarjetas que consiste en voltear correctamente las cartas boca abajo para encontrar las parejas.
-            Cuenta con tres temas (comida, animales y equipos de fútbol) y distintos niveles de dificultad, incluyendo la opción de personalizar la cantidad de cartas
-            que escoja el usuario. Además, ofrece la posibilidad de compartir el resultado en Facebook cuando se finaliza una partida y revisar el historial de partidas jugadas y los récords
-            que han conseguido los jugadores.
+        <p>Este proyecto es un juego de memoria interactivo en el que los usuarios deben encontrar parejas de tarjetas
+            iguales. Cuenta con una interfaz sencilla y visualmente atractiva que permite voltear cartas y detectar
+            coincidencias, promoviendo la concentración y la agilidad mental. El juego incluye funcionalidades como el
+            conteo de intentos, temporizador y reinicio automático, ofreciendo una experiencia dinámica y entretenida
+            para todas las edades.
         </p>
     </section>
 
     <section>
         <h2>Especificaciones técnicas</h2>
-        <p>El juego ha sido desarrollado en su totalidad por un equipo de tres personas utilizando, HTML5, CSS y JavaScript. </p>
+        <p>El juego está desarrollado en HTML, CSS y JavaScript. Permite seleccionar una dificultad
+            predeterminada (Fácil, Medio, Difícil) o personalizar el tamaño del tablero indicando filas y columnas
+            (siempre en número par y hasta 36 cartas). El usuario introduce su nombre y elige un tema visual (animales,
+            comidas o fútbol), que determina las imágenes de las cartas.
+
+            Al iniciar la partida, se genera dinámicamente un tablero con las cartas, que se reparten de
+            forma aleatoria y duplicada (para formar parejas). El juego incluye lógica de control para evitar más de dos
+            cartas volteadas al mismo tiempo y bloqueo temporal tras cada intento. Se lleva un contador de intentos y un
+            cronómetro en centésimas, que arranca con el primer clic.
+
+            El juego detecta automáticamente cuándo se han emparejado todas las cartas, muestra una pantalla de
+            finalización y guarda los resultados (nombre, tiempo, intentos, dificultad, fecha) en localStorage. Además,
+            cuenta con un historial de partidas, un ranking de mejores puntuaciones (ordenado por intentos) y la
+            posibilidad de limpiar estos datos. </p>
     </section>
 
     <section>
@@ -40,12 +58,14 @@
 
     <section>
         <h2>¿Dónde encontrarlo?</h2>
+        <a href="https://laidrillin.github.io/juego-mesa/">Memorion</a>
     </section>
 
 
     <footer>
-        <p>Última actualización: Mayo 2025</p>
+        <p>Última actualización: Junio 2025</p>
     </footer>
-    
+
 </body>
+
 </html>

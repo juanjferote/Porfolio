@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BuscaMapas</title>
     <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../images/icono.png" type="i"/>
 </head>
+
 <body>
     <header>
         <h1>Juanjo Fernández</h1>
         <p>¡Bienvenid@ a mi portfolio! Aquí iré publicando mis proyectos. Espero que te guste 😊</p>
         <nav>
             <ul class="menu">
-                <li class="a"> <a href="index.html">Quién soy</a></li> 
-                <li class="a"> <a href="memorion.html">Memorión</a></li> 
+                <li class="a"> <a href="index.html">Quién soy</a></li>
+                <li class="a"> <a href="memorion.html">Memorión</a></li>
                 <li class="a"> <a href="calcularedes.html">CalculaRedes</a></li>
                 <li class="a"> <a href="buscamapas.html">BuscaMapas</a></li>
+                <li class="a"> <a href="velneo.html">Velneo</a></li>
             </ul>
         </nav>
     </header>
 
+    <h1 style="text-align: center;">CAMBIAR LA DESCRIPCIÓN Y LAS ESPECIFICACIONES</h1>
     <section>
         <h2>Descripción del proyecto</h2>
+        <p>Esta aplicación web permite explorar mapas interactivos de distintas ciudades, mostrando puntos de interés como plazas, iglesias, estadios y museos, cada uno identificado con un icono específico. Además de seleccionar ciudades predefinidas, el usuario puede buscar cualquier ubicación para añadir marcadores personalizados. La app también integra información adicional en tiempo real, como datos sobre terremotos y otros eventos relevantes, ofreciendo una experiencia dinámica y completa. Incluye una leyenda interactiva para facilitar la comprensión de los símbolos en el mapa.
+        </p>
     </section>
 
     <section>
         <h2>Especificaciones técnicas</h2>
+        <p>El proyecto utiliza la API de Google Maps para renderizar el mapa y administrar los marcadores. Cada ciudad
+            tiene un conjunto de ubicaciones definidas con nombre, coordenadas y un icono específico que representa el
+            tipo de lugar (plaza, iglesia, estadio o museo). Al seleccionar una ciudad, el mapa centra su vista en la
+            ubicación correspondiente y ajusta el nivel de zoom. Los marcadores se generan dinámicamente y se almacenan
+            para facilitar su eliminación cuando se cambia la ciudad. La leyenda se actualiza automáticamente con los
+            iconos y categorías presentes y puede ocultarse o mostrarse mediante un botón. Se manejan eventos DOM para
+            controlar la interacción con el selector de ciudad y el botón de la leyenda, asegurando una experiencia de
+            usuario fluida y responsiva.</p>
     </section>
 
     <section>
@@ -39,8 +54,9 @@
 
 
     <footer>
-        <p>Última actualización: Mayo 2025</p>
+        <p>Última actualización: Junio 2025</p>
     </footer>
-    
+
 </body>
+
 </html>
