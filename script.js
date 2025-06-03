@@ -1,22 +1,30 @@
 let translations = {};
 
-fetch('traducciones.json')
-    .then(response => response.json())
-    .then(data => {
-        translations = data;
-        setLanguage('es');
-    });
+// Cargar traducciones al inicio
+fetch('lang.json')
+  .then(response => response.json())
+  .then(data => {
+    translations = data;
+    setLanguage('es'); // Idioma por defecto
+  })
+  .catch(err => console.error('Error cargando lang.json:', err));
+
+// Añadir evento a botones
+document.getElementById('language-buttons').addEventListener('click', (e) => {
+  if (e.target.tagName === 'BUTTON') {
+    const lang = e.target.getAttribute('data-lang');
+    setLanguage(lang);
+  }
+});
 
 function setLanguage(lang) {
-    document.querySelectorAll('[data-i18n]').forEach(elem => {
-        const key = elem.getAttribute('data-i18n');
-        if (translations[lang] && translations[lang][key]) {
-            elem.textContent = translations[lang][key];
-        }
-    });
-
-    // Cambiar también el título del documento
-    if (translations[lang] && translations[lang]['title']) {
-        document.title = translations[lang]['title'];
-    }
+  if (!translations[lang]) {
+    console.warn(`Idioma ${lang} no encontrado`);
+    return;
+  }
+  for (const id in translations[lang]) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = translations[lang][id];
+  }
+  document.documentElement.lang = lang;
 }
