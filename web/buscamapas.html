@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BuscaMapas</title>
     <link rel="stylesheet" href="../styles.css">
-    <link rel="icon" href="../images/icono.png" type="i"/>
+    <link rel="icon" href="../images/icono.png" type="i" />
 </head>
 
 <body>
@@ -24,34 +24,55 @@
         </nav>
     </header>
 
-    <h1 style="text-align: center;">CAMBIAR LA DESCRIPCIÓN Y LAS ESPECIFICACIONES</h1>
     <section>
         <h2>Descripción del proyecto</h2>
-        <p>Esta aplicación web permite explorar mapas interactivos de distintas ciudades, mostrando puntos de interés como plazas, iglesias, estadios y museos, cada uno identificado con un icono específico. Además de seleccionar ciudades predefinidas, el usuario puede buscar cualquier ubicación para añadir marcadores personalizados. La app también integra información adicional en tiempo real, como datos sobre terremotos y otros eventos relevantes, ofreciendo una experiencia dinámica y completa. Incluye una leyenda interactiva para facilitar la comprensión de los símbolos en el mapa.
+        <p>Este proyecto es una aplicación de mapas que destaca lugares relevantes en ciudades predefinidas, como
+            estadios e iglesias. Permite buscar ubicaciones y añadir marcadores personalizados. Además, muestra los
+            terremotos recientes en la península y las capitales de países visitados por el equipo de desarrollo y
+            colaboradores.
         </p>
     </section>
 
     <section>
         <h2>Especificaciones técnicas</h2>
-        <p>El proyecto utiliza la API de Google Maps para renderizar el mapa y administrar los marcadores. Cada ciudad
-            tiene un conjunto de ubicaciones definidas con nombre, coordenadas y un icono específico que representa el
-            tipo de lugar (plaza, iglesia, estadio o museo). Al seleccionar una ciudad, el mapa centra su vista en la
-            ubicación correspondiente y ajusta el nivel de zoom. Los marcadores se generan dinámicamente y se almacenan
-            para facilitar su eliminación cuando se cambia la ciudad. La leyenda se actualiza automáticamente con los
-            iconos y categorías presentes y puede ocultarse o mostrarse mediante un botón. Se manejan eventos DOM para
-            controlar la interacción con el selector de ciudad y el botón de la leyenda, asegurando una experiencia de
-            usuario fluida y responsiva.</p>
+        <p>Este proyecto utiliza la API de Google Maps para mostrar mapas interactivos con marcadores personalizados. Se
+            representan diferentes grupos de lugares por ciudad, capitales visitadas (cargadas desde un archivo XML
+            externo), búsquedas de usuario y terremotos recientes obtenidos vía RSS del Instituto Geográfico Nacional.
+
+            Los marcadores se organizan con distintos iconos y categorías, y se almacenan en localStorage para mantener
+            un historial interactivo. Además, se incluyen leyendas dinámicas, ventanas de información, notificaciones
+            visuales y controles para mostrar u ocultar distintos elementos del mapa, mejorando la experiencia del
+            usuario.
+
+        </p>
     </section>
 
     <section>
         <h2>Imágenes</h2>
+        <div class="imagenes">
+            <article>
+                <img src="../images/images_buscamapas/buscamapas_1.png" alt="buscamapas_1">
+            </article>
+            <article>
+                <img src="../images/images_buscamapas/buscamapas_2.png" alt="buscamapas_2">
+            </article>
+            <article>
+                <img src="../images/images_buscamapas/buscamapas_3.png" alt="buscamapas_3">
+            </article>
+            <article>
+                <img src="../images/images_buscamapas/buscamapas_4.png" alt="buscamapas_4">
+            </article>
+        </div>
     </section>
 
     <section>
         <h2>¿Dónde encontrarlo?</h2>
-        <a href="https://juanjferote.github.io/maps/">BuscaMapas</a>
+        <p>Para acceder a la aplicación, haz click en la siguiente imagen: <a
+                href="https://juanjferote.github.io/maps/">
+                <img src="../images/images_buscamapas/buscamapas_logo.png" alt="calcularedes_logo" class="logo_proyecto"
+                    style="width: 120px;">
+            </a></p>
     </section>
-
 
     <footer>
         <p>Última actualización: Junio 2025</p>
