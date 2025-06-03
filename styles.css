@@ -141,3 +141,50 @@ nav {
 .menu a:hover {
     color: #b3c5b3;         /* Color verde al pasar el ratón */
 }
+
+.imagenes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+  background: #fafafa;
+  border-radius: 12px;
+}
+
+.imagenes article {
+  flex: 1 1 360px; /* tamaño base grande */
+  max-width: 450px; /* ancho máximo más grande */
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagenes article:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.imagenes img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.logo_proyecto {
+  width: 200px;
+  height: auto;  
+  object-fit: contain; 
+  image-rendering: crisp-edges; 
+  display: inline-block; 
+  margin: 8px 12px 8px 0; 
+  vertical-align: middle; 
+}
+
+.logo_proyecto:hover {
+  transform: scale(1.05); /* efecto pequeño al pasar el cursor */
+}   
