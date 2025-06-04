@@ -17,8 +17,6 @@
     "direccion_h3": "Dirección",
     "direccion_p": "León, España",
     "contacto_h3": "Contacto",
-    "email_li": "Email: juanj.ferote@educa.jcyl.es",
-    "linkedin_li": "LinkedIn: linkedin.com/in/juan-josé-fernández-otero-a68a96364",
     "sobre_mi_h2": "Sobre mi",
     "sobre_mi_p": "Soy estudiante de 1º de Desarrollo de Aplicaciones Web, con gran interés en el desarrollo backend. He adquirido conocimientos en HTML, CSS, JavaScript y bases de datos, aplicándolos en proyectos académicos. Mi objetivo es profundizar en tecnologías backend y frameworks, para convertirme en un desarrollador web completo. Busco oportunidades para seguir aprendiendo y aportar en proyectos reales.",
     "educacion_h2": "Educación",
@@ -42,7 +40,7 @@
     "hard_skill_3": "Herramientas: GitHub",
     "hard_skill_4": "Idiomas: Español (nativo), inglés (nivel medio)",
     "hard_skill_5": "Diplomas y certificados: 2º dan en Karate Shotokan, permiso de conducir B",
-    "footer_p": "Última actualización: Junio 2025"
+    "footer_p": "Juanjo Fernández 2025©"
   },
   "en": {
     "header_h1": "Juanjo Fernández",
@@ -62,8 +60,6 @@
     "direccion_h3": "Address",
     "direccion_p": "Leon, Spain",
     "contacto_h3": "Contact",
-    "email_li": "Email: juanj.ferote@educa.jcyl.es",
-    "linkedin_li": "LinkedIn: linkedin.com/in/juan-josé-fernández-otero-a68a96364",
     "sobre_mi_h2": "About Me",
     "sobre_mi_p": "I am a first-year Web Application Development student with a strong interest in backend development. I have gained knowledge in HTML, CSS, JavaScript, and databases, applying them in academic projects. My goal is to deepen my knowledge in backend technologies and frameworks to become a complete web developer. I seek opportunities to continue learning and contribute to real projects.",
     "educacion_h2": "Education",
@@ -87,6 +83,6 @@
     "hard_skill_3": "Tools: GitHub",
     "hard_skill_4": "Languages: Spanish (native), English (intermediate)",
     "hard_skill_5": "Certificates: 2nd dan in Karate Shotokan, driving license B",
-    "footer_p": "Last update: June 2025"
+    "footer_p": "Juanjo Fernández 2025©"
   }
 }
