@@ -1,5 +1,6 @@
 {
   "es": {
+    "header_h1": "Juanjo Fernández",
     "header_p": "¡Bienvenid@ a mi portfolio! Aquí iré publicando mis proyectos. Espero que te guste 😊",
     "nav_quien_soy": "Quién soy",
     "nav_memorion": "Memorión",
@@ -8,6 +9,7 @@
     "nav_velneo": "Velneo",
     "personal_data_h2": "Datos personales",
     "nombre_completo_h3": "Nombre completo",
+    "nombre_completo_p" : "Juan José Fernández Otero",
     "profesion_h3": "Profesión",
     "profesion_p": "Estudiante de Desarrollo de Aplicaciones Web",
     "fecha_nacimiento_h3": "Fecha de nacimiento",
@@ -43,6 +45,7 @@
     "footer_p": "Última actualización: Junio 2025"
   },
   "en": {
+    "header_h1": "Juanjo Fernández",
     "header_p": "Welcome to my portfolio! Here I will be posting my projects. I hope you like it 😊",
     "nav_quien_soy": "About Me",
     "nav_memorion": "Memorion",
@@ -51,6 +54,7 @@
     "nav_velneo": "Velneo",
     "personal_data_h2": "Personal Data",
     "nombre_completo_h3": "Full Name",
+    "nombre_completo_p" : "Juan José Fernández Otero",
     "profesion_h3": "Profession",
     "profesion_p": "Web Application Development Student",
     "fecha_nacimiento_h3": "Date of Birth",
